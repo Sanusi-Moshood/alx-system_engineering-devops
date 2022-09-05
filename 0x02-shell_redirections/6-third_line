@@ -1,2 +1,2 @@
 #!/ibn/bash
-awk 'NR==3{ print; exit }' iacta
+head --lines=3 iacta | tail --tail --lines=1
